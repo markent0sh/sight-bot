@@ -1,0 +1,48 @@
+@startuml
+
+participant User #White
+participant TGBot as "TG Bot" #LightGray
+participant CRBot as "Crypto Bot" #Gray
+participant IDB as "<<Mongo DB>>\nDeposit Collection" #LightGray
+participant BDB as "<<Mongo DB>>\nBalance Collection" #LightGray
+participant PayProc as "Payment Processor" #LightGray
+
+User -> TGBot: Deposit Request ($AMOUNT in USD)
+TGBot -> CRBot: createInvoice(\n\
+  asset = {USDT, USDC, BTC, ETH, LTC, BNB, TON}\n\
+  amount = $AMOUNT) : Invoice
+CRBot --> TGBot: invoice : Invoice
+
+TGBot -> IDB: create({\n\
+  invoice-id = invoice.ID,\n\
+  user-id = user_id,\n\
+  status = false})
+
+...
+
+User -> CRBot: Invoice Payment ($AMOUNT in USD)
+CRBot ->> PayProc: pay_handler(paid_invoice : Invoice)
+
+PayProc -> IDB: read({\n\
+  invoice-id = paid_invoice.ID}) : LocalInvoice
+
+IDB --> PayProc: local_invoice : LocalInvoice
+
+PayProc -> IDB: update(\n\
+  {invoice-id = paid_invoice.ID},\n\
+  {status = true})
+
+PayProc -> BDB: open_session()
+activate BDB
+
+PayProc -> BDB: read({user-id = local_invoice.user_id}) : LocalBalance
+BDB --> PayProc: balance : LocalBalance
+
+PayProc -> BDB: update(\n\
+  {user-id = local_invoice.user_id},\n\
+  {balance = balance.amount + paid_invoice.amount})
+
+PayProc -> BDB: close_session()
+deactivate BDB
+
+@enduml

@@ -1,0 +1,9 @@
+python-telegram-bot
+grpcio
+grpcio-tools
+pymongo
+aiocryptopay
+matplotlib
+pandas
+adjustText
+reportlab

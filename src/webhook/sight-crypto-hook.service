@@ -1,0 +1,12 @@
+[Unit]
+Description=Sight Crypto Hook
+After=network.target
+Wants=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/mark-ssd/code/sight-telegram-bot/src/webhook/crypto_hook.py
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target

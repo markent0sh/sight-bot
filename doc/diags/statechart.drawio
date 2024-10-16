@@ -1,0 +1,194 @@
+<mxfile host="Electron" modified="2024-04-27T10:43:51.949Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.0 Chrome/112.0.5615.204 Electron/24.5.1 Safari/537.36" etag="7aSqIjDsjGH-csnYzBZe" version="21.5.0" type="device">
+  <diagram name="Page-1" id="GgluT5hukFRkSTczRPJE">
+    <mxGraphModel dx="2284" dy="1889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gRQpekta20tD_tD0a07y-1" value="Sight Main" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="80" width="200" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-2" value="(+) Instagram" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;dashPattern=1 4;" parent="gRQpekta20tD_tD0a07y-1" vertex="1">
+          <mxGeometry y="40" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-3" value="(+) Balance" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;dashPattern=1 4;" parent="gRQpekta20tD_tD0a07y-1" vertex="1">
+          <mxGeometry y="120" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-4" value="(+) Settings" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;dashPattern=1 4;" parent="gRQpekta20tD_tD0a07y-1" vertex="1">
+          <mxGeometry y="200" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gRQpekta20tD_tD0a07y-2" target="gRQpekta20tD_tD0a07y-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="140" />
+              <mxPoint x="320" y="60" />
+              <mxPoint x="500" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-14" value="Instagram" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" width="560" height="720" as="geometry">
+            <mxRectangle x="360" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-5" value="Instagram Main" style="swimlane;whiteSpace=wrap;html=1;" parent="gRQpekta20tD_tD0a07y-14" vertex="1">
+          <mxGeometry x="40" y="80" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-6" value="(+) Stories" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;dashPattern=1 4;" parent="gRQpekta20tD_tD0a07y-5" vertex="1">
+          <mxGeometry y="40" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-7" value="(+) Followers" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;dashPattern=1 4;" parent="gRQpekta20tD_tD0a07y-5" vertex="1">
+          <mxGeometry y="80" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JHtk19pkmXkDkJ4lEqSM-12" value="(+) Likes" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;dashPattern=1 4;" vertex="1" parent="gRQpekta20tD_tD0a07y-5">
+          <mxGeometry y="120" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-10" value="Stories Main" style="swimlane;whiteSpace=wrap;html=1;" parent="gRQpekta20tD_tD0a07y-14" vertex="1">
+          <mxGeometry x="320" y="80" width="200" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-11" value="(*) Active Targets" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;dashPattern=1 4;" parent="gRQpekta20tD_tD0a07y-10" vertex="1">
+          <mxGeometry y="40" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-12" value="(+) Remove Target (?)" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;dashPattern=1 4;" parent="gRQpekta20tD_tD0a07y-10" vertex="1">
+          <mxGeometry y="80" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-16" value="(+) Get Target Data (?)" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;dashPattern=1 4;" parent="gRQpekta20tD_tD0a07y-10" vertex="1">
+          <mxGeometry y="120" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-21" value="(+) Set New Target" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;dashPattern=1 4;" parent="gRQpekta20tD_tD0a07y-10" vertex="1">
+          <mxGeometry y="200" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="gRQpekta20tD_tD0a07y-14" source="gRQpekta20tD_tD0a07y-6" target="gRQpekta20tD_tD0a07y-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-27" value="Followers Main" style="swimlane;whiteSpace=wrap;html=1;" parent="gRQpekta20tD_tD0a07y-14" vertex="1">
+          <mxGeometry x="320" y="400" width="200" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-28" value="(*) Active Targets" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;dashPattern=1 4;" parent="gRQpekta20tD_tD0a07y-27" vertex="1">
+          <mxGeometry y="40" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-29" value="(+) Remove Target (?)" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;dashPattern=1 4;" parent="gRQpekta20tD_tD0a07y-27" vertex="1">
+          <mxGeometry y="80" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-30" value="(+) Get Target Data (?)" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;dashPattern=1 4;" parent="gRQpekta20tD_tD0a07y-27" vertex="1">
+          <mxGeometry y="160" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-31" value="(+) Set New Target" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;dashPattern=1 4;" parent="gRQpekta20tD_tD0a07y-27" vertex="1">
+          <mxGeometry y="240" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-32" value="(+) Modify Target (?)" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;dashPattern=1 4;" parent="gRQpekta20tD_tD0a07y-27" vertex="1">
+          <mxGeometry y="120" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="gRQpekta20tD_tD0a07y-14" source="gRQpekta20tD_tD0a07y-7" target="gRQpekta20tD_tD0a07y-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="180" />
+              <mxPoint x="280" y="380" />
+              <mxPoint x="420" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-22" value="Special Symbols" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-240" y="-190" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-23" value="(+) User Action" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="gRQpekta20tD_tD0a07y-22" vertex="1">
+          <mxGeometry y="30" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-24" value="(*) Interactive Information" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="gRQpekta20tD_tD0a07y-22" vertex="1">
+          <mxGeometry y="60" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-36" value="(-) Information" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="gRQpekta20tD_tD0a07y-22" vertex="1">
+          <mxGeometry y="90" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-43" value="(?) Conditional" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="gRQpekta20tD_tD0a07y-22" vertex="1">
+          <mxGeometry y="120" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-34" value="Balance" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="360" y="800" width="560" height="300" as="geometry">
+            <mxRectangle x="360" y="800" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-37" value="Balance Main" style="swimlane;whiteSpace=wrap;html=1;" parent="gRQpekta20tD_tD0a07y-34" vertex="1">
+          <mxGeometry x="40" y="80" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-38" value="(-) Current Balance" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;dashPattern=1 4;" parent="gRQpekta20tD_tD0a07y-37" vertex="1">
+          <mxGeometry y="40" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-39" value="(+) Deposit Crypto" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;dashPattern=1 4;" parent="gRQpekta20tD_tD0a07y-37" vertex="1">
+          <mxGeometry y="80" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-44" value="Deposit Main" style="swimlane;whiteSpace=wrap;html=1;" parent="gRQpekta20tD_tD0a07y-34" vertex="1">
+          <mxGeometry x="320" y="80" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-45" value="(*) Available Amounts" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;dashPattern=1 4;" parent="gRQpekta20tD_tD0a07y-44" vertex="1">
+          <mxGeometry y="40" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-46" value="(+) Select" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;dashPattern=1 4;" parent="gRQpekta20tD_tD0a07y-44" vertex="1">
+          <mxGeometry y="80" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-47" value="(+) My Amount" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;dashPattern=1 4;" parent="gRQpekta20tD_tD0a07y-44" vertex="1">
+          <mxGeometry y="120" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="gRQpekta20tD_tD0a07y-34" source="gRQpekta20tD_tD0a07y-39" target="gRQpekta20tD_tD0a07y-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gRQpekta20tD_tD0a07y-3" target="gRQpekta20tD_tD0a07y-37" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="220" />
+              <mxPoint x="320" y="760" />
+              <mxPoint x="500" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-51" value="Notes" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-240" y="40" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-52" value="1/ &quot;Back&quot; action&amp;nbsp;implicitly implied" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="gRQpekta20tD_tD0a07y-51" vertex="1">
+          <mxGeometry y="30" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gRQpekta20tD_tD0a07y-56" value="2/ UI is control message" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="gRQpekta20tD_tD0a07y-51" vertex="1">
+          <mxGeometry y="60" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JHtk19pkmXkDkJ4lEqSM-1" value="Settings" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1200" width="560" height="500" as="geometry">
+            <mxRectangle x="360" y="800" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JHtk19pkmXkDkJ4lEqSM-2" value="Settings Main" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="JHtk19pkmXkDkJ4lEqSM-1">
+          <mxGeometry x="40" y="80" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="JHtk19pkmXkDkJ4lEqSM-3" value="(+) Language" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;dashPattern=1 4;" vertex="1" parent="JHtk19pkmXkDkJ4lEqSM-2">
+          <mxGeometry y="40" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JHtk19pkmXkDkJ4lEqSM-4" value="(+) Currency" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;dashPattern=1 4;" vertex="1" parent="JHtk19pkmXkDkJ4lEqSM-2">
+          <mxGeometry y="80" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JHtk19pkmXkDkJ4lEqSM-5" value="Language Main" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="JHtk19pkmXkDkJ4lEqSM-1">
+          <mxGeometry x="320" y="80" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="JHtk19pkmXkDkJ4lEqSM-6" value="(-) Current Language" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;dashPattern=1 4;" vertex="1" parent="JHtk19pkmXkDkJ4lEqSM-5">
+          <mxGeometry y="40" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JHtk19pkmXkDkJ4lEqSM-7" value="(*) Available Languages" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;dashPattern=1 4;" vertex="1" parent="JHtk19pkmXkDkJ4lEqSM-5">
+          <mxGeometry y="80" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JHtk19pkmXkDkJ4lEqSM-11" value="(+) Select" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;dashPattern=1 4;" vertex="1" parent="JHtk19pkmXkDkJ4lEqSM-5">
+          <mxGeometry y="120" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JHtk19pkmXkDkJ4lEqSM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="JHtk19pkmXkDkJ4lEqSM-1" source="JHtk19pkmXkDkJ4lEqSM-3" target="JHtk19pkmXkDkJ4lEqSM-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JHtk19pkmXkDkJ4lEqSM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gRQpekta20tD_tD0a07y-4" target="JHtk19pkmXkDkJ4lEqSM-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="900" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="300" />
+              <mxPoint x="40" y="1160" />
+              <mxPoint x="640" y="1160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

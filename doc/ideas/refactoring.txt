@@ -1,0 +1,8 @@
+*/ TG-BOT: Implement subscription on monthly basis
+*/ ARCH: Implement separate service for user balance handling
+*/ SERVER: Optimize workers on server side to have only one running task for unique target-username, result pool is already shared
+*/ SERVER: Investigate crash on 65k+ tasks
+*/ TG-BOT: Move all DB interactions to separate modules with corresponding classes and use composition to widget
+*/ ARCH: Get rid of event generator in tg-bot, implement separate IPC for events from servers
+*/ TG-BOT: Split states to separate classes and clean-up fsm.py module
+*/ TG-BOT: Fix namings in widget, we need some conventionality

@@ -1,0 +1,23 @@
+TG_API_TOKEN = ''
+CRYPTO_API_TOKEN = ''
+LOGO_PHOTO_URI = '/home/mark-ssd/code/sight-telegram-bot/src/assets/alt.jpg'
+NEWS_GROUP_URL = ''
+STORY_SERVER_ADDRESS = '127.0.0.1'
+STORY_SERVER_PORT = '33333'
+FOLLOWER_SERVER_ADDRESS = '127.0.0.1'
+FOLLOWER_SERVER_PORT = '44444'
+USER_DB_PATH = 'user-test-db'
+USER_COLLECTION_PATH = 'user-test-collection'
+INVOICE_DB_PATH = 'invoice-test-db'
+INVOICE_COLLECTION_PATH = 'invoice-test-collection'
+SUBSCRIPTIONS_DB_PATH = 'subscriptions-test-db'
+SUBSCRIPTIONS_COLLECTION_PATH = 'subscriptions-test-collection'
+CRYPTO_WEBHOOK_PORT = 3001
+LANGUAGE_MODELS_PATH = '/home/mark-ssd/code/sight-telegram-bot/src/language/models'
+LOCAL_STORAGE_PATH = '/home/mark-ssd/code/sight-telegram-bot/src/build'
+DIAMOND_EXCHANGE_RATE = 5.0 #1$ = 5 DIAMONDS
+DIAMOND_WELCOME_BONUS = 5 # DIAMONDS
+MINIMUM_TOP_UP = 5 # USD
+STORY_TARGET_PRICES = {0 : 5, 1 : 10, 2 : 50, 3 : 100, 4 : 300} # DIAMONDS
+FOLLOWER_TARGET_PRICES = {0 : 5, 1 : 10, 2 : 20, 3 : 40, 4 : 100} # DIAMONDS
+POLLING_DELAY = 10 # 0.5 hour
